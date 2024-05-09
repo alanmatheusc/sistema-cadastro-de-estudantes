@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeAlunoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeDadosComplementares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/CadastroDeAlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/CadastroDeAlunoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gCSaD7VBsUep6CxXVyueIoIFb6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CadastroDeAlunoRepository.executor": "Run",
+    "Application.CadastroDeAlunoService.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.com.br.projeto.escola.cadastrodealunos.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/oi/Desktop/Estudo/src/main/java/dio/me/cursodio/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.com.br.projeto.escola.cadastrodealunos.Main">
+    <configuration name="CadastroDeAlunoRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.repository.CadastroDeAlunoRepository" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.projeto.escola.cadastrodealunos.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroDeAlunoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.service.CadastroDeAlunoService" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.projeto.escola.cadastrodealunos.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.estudos.alan.java.Main" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.estudos.alan.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.br.projeto.escola.cadastrodealunos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.Main" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.projeto.escola.cadastrodealunos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.br.projeto.escola.cadastrodealunos.Main" />
+        <item itemvalue="Application.CadastroDeAlunoRepository" />
+        <item itemvalue="Application.CadastroDeAlunoService" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="" />
+      <created>1715200131638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715200131638</updated>
+    </task>
+    <servers />
+  </component>
+</project>
