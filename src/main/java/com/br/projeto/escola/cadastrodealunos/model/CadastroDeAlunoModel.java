@@ -69,4 +69,17 @@ public class CadastroDeAlunoModel {
     public boolean validadorDeCpf(int cpf){
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Alunos{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", cpf=" + cpf +
+                ", rg=" + rg +
+                ", nomeDaMae='" + nomeDaMae + '\'' +
+                ", nomeDoPai='" + nomeDoPai + '\'' +
+                ", dadosComplementares=" + dadosComplementares +
+                '}';
+    }
 }

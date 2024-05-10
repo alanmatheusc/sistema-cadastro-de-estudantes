@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeAlunoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeDadosComplementares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/CadastroDeAlunoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/CadastroDeAlunoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+    <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="Sistema de Cadastro de Alunos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeAlunoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/model/CadastroDeAlunoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/CadastroDeAlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/CadastroDeAlunoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alanmatheusc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alanmatheusc/sistema-cadastro-de-estudantes.git",
+    "accountId": "1827dbf8-7a86-4fb6-b0ea-a4f1f8de12b8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -127,6 +130,30 @@
       <option name="presentableId" value="Default" />
       <updated>1715200131638</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sistema de Cadastro de Alunos">
+      <option name="closed" value="true" />
+      <created>1715294364834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715294364834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sistema de Cadastro de Alunos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistema de Cadastro de Alunos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/CadastroDeAlunoService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

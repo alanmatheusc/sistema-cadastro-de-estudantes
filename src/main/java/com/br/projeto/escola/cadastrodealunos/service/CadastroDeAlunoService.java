@@ -6,7 +6,10 @@ import com.br.projeto.escola.cadastrodealunos.repository.CadastroDeAlunoReposito
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CadastroDeAlunoService {
 
@@ -35,5 +38,60 @@ public class CadastroDeAlunoService {
         }
 
     }
+
+    public List<CadastroDeAlunoModel> listarAlunos(){
+        CadastroDeAlunoRepository repository = new CadastroDeAlunoRepository();
+        String sql = "SELECT * FROM estudante";
+        Connection conexaoBancoDeDados =null;
+        PreparedStatement preparInjecaoSql = null;
+        List<CadastroDeAlunoModel> alunos = new ArrayList<CadastroDeAlunoModel>();
+
+        try{
+            conexaoBancoDeDados = repository.conectarNoBancoDeDados();
+            preparInjecaoSql = conexaoBancoDeDados.prepareStatement(sql);
+            ResultSet reset = preparInjecaoSql.executeQuery();
+
+            while(reset.next()){
+                CadastroDeAlunoModel aluno = new CadastroDeAlunoModel();
+
+                aluno.setNome(reset.getString("nome"));
+                aluno.setIdade(reset.getInt("idade"));
+                aluno.setNomeDoPai(reset.getString("nomedopai"));
+                aluno.setNomeDaMae(reset.getString("nomedamae"));
+                aluno.setRg(reset.getInt("rg"));
+                aluno.setCpf(reset.getInt("cpf"));
+                alunos.add(aluno);
+                System.out.println(aluno);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return alunos;
+    }
+
+    public void deletarAlunoPeloId(int id){
+        String sql = "DELETE FROM estudante WHERE id="+id;
+        PreparedStatement injetarSql = null;
+        Connection conexaoBancoDeDados = null;
+        CadastroDeAlunoRepository alunoRepository = new CadastroDeAlunoRepository();
+        try{
+            conexaoBancoDeDados = alunoRepository.conectarNoBancoDeDados();
+            injetarSql = conexaoBancoDeDados.prepareStatement(sql);
+
+            if(conexaoBancoDeDados != null){
+                injetarSql.executeQuery();
+                System.out.println("Aluno deletado com sucesso!");
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 }
