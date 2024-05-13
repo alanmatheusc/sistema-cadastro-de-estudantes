@@ -1,6 +1,6 @@
-package com.br.projeto.escola.cadastrodealunos.model;
+package com.br.projeto.escola.cadastrodealunos.entity;
 
-public class CadastroDeDadosComplementares {
+public class DadosComplementares {
     private String logradouro;
     private int cep;
     private int numero;
