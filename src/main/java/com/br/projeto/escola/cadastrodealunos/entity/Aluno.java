@@ -1,14 +1,23 @@
-package com.br.projeto.escola.cadastrodealunos.model;
+package com.br.projeto.escola.cadastrodealunos.entity;
 
-public class CadastroDeAlunoModel {
+public class Aluno {
     private String nome;
     private int idade;
     private int cpf;
     private int rg;
     private String nomeDaMae;
     private String nomeDoPai;
-    private CadastroDeDadosComplementares dadosComplementares;
+    private DadosComplementares dadosComplementares;
 
+    public Aluno(String nome, int idade, int cpf, int rg, String nomeDoPai, String nomeDaMae, DadosComplementares dadosComplementares) {
+        this.nome = nome;
+        this.idade = idade;
+        this.cpf = cpf;
+        this.rg = rg;
+        this.nomeDoPai = nomeDoPai;
+        this.nomeDaMae = nomeDaMae;
+        this.dadosComplementares = dadosComplementares;
+    }
 
     public String getNome() {
         return nome;
@@ -58,11 +67,11 @@ public class CadastroDeAlunoModel {
         this.nomeDoPai = nomeDoPai;
     }
 
-    public CadastroDeDadosComplementares getDadosComplementares() {
+    public DadosComplementares getDadosComplementares() {
         return dadosComplementares;
     }
 
-    public void setDadosComplementares(CadastroDeDadosComplementares dadosComplementares) {
+    public void setDadosComplementares(DadosComplementares dadosComplementares) {
         this.dadosComplementares = dadosComplementares;
     }
 
