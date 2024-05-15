@@ -5,8 +5,8 @@ import com.br.projeto.escola.cadastrodealunos.entity.DadosComplementares;
 public class SaveAlunoDto {
     private String nome;
     private int idade;
-    private int cpf;
-    private int rg;
+    private String cpf;
+    private String rg;
     private String nomeDaMae;
     private String nomeDoPai;
     private String logradouro;
@@ -30,19 +30,19 @@ public class SaveAlunoDto {
         this.idade = idade;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public int getRg() {
+    public String getRg() {
         return rg;
     }
 
-    public void setRg(int rg) {
+    public void setRg(String rg) {
         this.rg = rg;
     }
 

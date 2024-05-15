@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="Sistema de Cadastro de Alunos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/AlunoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/GetAlunoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/GetAlunoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/AlunoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/AlunoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/AlunoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +35,15 @@
     &quot;assignee&quot;: &quot;alanmatheusc&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alanmatheusc/sistema-cadastro-de-estudantes.git",
-    "accountId": "372d25a6-c182-43fb-b033-898d5d6a9328"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alanmatheusc/sistema-cadastro-de-estudantes.git&quot;,
+    &quot;accountId&quot;: &quot;372d25a6-c182-43fb-b033-898d5d6a9328&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -53,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature/refector-code",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alan/git/sistema-cadastro-de-estudantes/src/main/java/com/resources",
+    "last_opened_file_path": "/home/alan/dio-santander-estudos-javabackend",
     "onboarding.tips.debug.path": "C:/Users/oi/Desktop/Estudo/src/main/java/dio/me/cursodio/Main.java"
   }
 }]]></component>
@@ -121,8 +131,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.br.projeto.escola.cadastrodealunos.Main" />
-        <item itemvalue="Application.CadastroDeAlunoRepository" />
-        <item itemvalue="Application.CadastroDeAlunoService" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -155,14 +163,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/AlunoService.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.jdks/corretto-16.0.2/lib/src.zip!/java.base/java/util/ResourceBundle.java</url>
           <line>855</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
