@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="Sistema de Cadastro de Alunos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/ProfessorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/GetProfessorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/SaveProfessorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/entity/DadosComplementar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/entity/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/infra/PostgresDBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/repository/ProfessorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/service/ProfessorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/usuario/entity/model/DadosComplementares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/usuario/entity/model/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/DadosComplementares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/ComplementoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/ProfessorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/ProfessorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/GetProfessorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/GetProfessorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/SaveProfessorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/SaveProfessorDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

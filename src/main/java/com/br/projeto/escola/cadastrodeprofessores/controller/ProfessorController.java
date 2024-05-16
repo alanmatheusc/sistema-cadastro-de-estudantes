@@ -1,5 +1,7 @@
 package com.br.projeto.escola.cadastrodeprofessores.controller;
 
+import com.br.projeto.escola.cadastrodeprofessores.controller.dto.GetProfessorDto;
+import com.br.projeto.escola.cadastrodeprofessores.controller.dto.SaveProfessorDto;
 import com.br.projeto.escola.cadastrodeprofessores.entity.Professor;
 import com.br.projeto.escola.cadastrodeprofessores.service.ProfessorService;
 
@@ -16,6 +18,7 @@ public class ProfessorController {
     }
 
     public void adicionarProfessor(){
+        SaveProfessorDto professorDto = new SaveProfessorDto(professorList.getNome(),professorList.getIdade(),professorList.getCpf(),professorList.getRg(),professorList.getNomeDaMae(),professorList.getNomeDoPai());
 
     }
 
