@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139577b2-38fd-4181-8df8-525728818131" name="Changes" comment="Sistema de Cadastro de Alunos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/ProfessorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/GetProfessorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/controller/dto/SaveProfessorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/entity/DadosComplementar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/entity/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/infra/PostgresDBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/repository/ProfessorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodeprofessores/service/ProfessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/usuario/entity/model/DadosComplementares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/usuario/entity/model/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/AlunoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/GetAlunoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/GetAlunoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/controller/dto/SaveAlunoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/AlunoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/repository/AlunoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/service/AlunoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/DadosComplementares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/entity/ComplementoDeDados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +65,12 @@
     "Application.CadastroDeAlunoRepository.executor": "Run",
     "Application.CadastroDeAlunoService.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.br.projeto.escola.Main.executor": "Run",
     "Application.com.br.projeto.escola.cadastrodealunos.Main.executor": "Run",
+    "Application.com.br.projeto.escola.cadastrodeprofessores.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/refector-code",
+    "git-widget-placeholder": "feature/cadastro-de-professores",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/alan/dio-santander-estudos-javabackend",
     "onboarding.tips.debug.path": "C:/Users/oi/Desktop/Estudo/src/main/java/dio/me/cursodio/Main.java"
@@ -75,20 +84,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.br.projeto.escola.cadastrodealunos.Main">
-    <configuration name="AlunoRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.repository.AlunoRepository" />
-      <module name="Estudo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.br.projeto.escola.cadastrodealunos.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.br.projeto.escola.Main">
     <configuration name="AlunoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.service.AlunoService" />
       <module name="Estudo" />
@@ -115,6 +111,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.br.projeto.escola.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.Main" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.projeto.escola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.br.projeto.escola.cadastrodealunos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodealunos.Main" />
       <module name="Estudo" />
@@ -128,8 +137,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.br.projeto.escola.cadastrodeprofessores.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.projeto.escola.cadastrodeprofessores.Main" />
+      <module name="Estudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.projeto.escola.cadastrodeprofessores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.br.projeto.escola.Main" />
+        <item itemvalue="Application.com.br.projeto.escola.cadastrodeprofessores.Main" />
         <item itemvalue="Application.com.br.projeto.escola.cadastrodealunos.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -152,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715294364834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sistema de Cadastro de Alunos">
+      <option name="closed" value="true" />
+      <created>1715737671314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715737671314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,11 +198,6 @@
           <url>jar://$USER_HOME$/.jdks/corretto-16.0.2/lib/src.zip!/java.base/java/util/ResourceBundle.java</url>
           <line>855</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/br/projeto/escola/cadastrodealunos/Main.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

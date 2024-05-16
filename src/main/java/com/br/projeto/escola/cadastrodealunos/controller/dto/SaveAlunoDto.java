@@ -1,7 +1,5 @@
 package com.br.projeto.escola.cadastrodealunos.controller.dto;
 
-import com.br.projeto.escola.cadastrodealunos.entity.DadosComplementares;
-
 public class SaveAlunoDto {
     private String nome;
     private int idade;
