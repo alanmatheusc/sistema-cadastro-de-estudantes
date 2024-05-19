@@ -1,42 +1,9 @@
 package com.br.projeto.escola.cadastrodealunos.entity;
 
-public class DadosComplementares {
-    private String logradouro;
-    private int cep;
-    private int numero;
-    private String pontoDeReferencia;
+import com.br.projeto.escola.usuario.entity.model.DadosComplementares;
 
-    public String getLogradouro() {
-        return logradouro;
+public class ComplementoDeDados  extends DadosComplementares {
+
+    public ComplementoDeDados() {
     }
-
-    public void setLogradouro(String logradouro) {
-        this.logradouro = logradouro;
-    }
-
-    public int getCep() {
-        return cep;
-    }
-
-    public void setCep(int cep) {
-        this.cep = cep;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public String getPontoDeReferencia() {
-        return pontoDeReferencia;
-    }
-
-    public void setPontoDeReferencia(String pontoDeReferencia) {
-        this.pontoDeReferencia = pontoDeReferencia;
-    }
-
-
 }
