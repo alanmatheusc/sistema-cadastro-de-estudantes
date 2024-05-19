@@ -1,7 +1,7 @@
 package com.br.projeto.escola.usuario.entity.model;
 
 
-public class Usuario {
+public abstract class   Usuario {
     private String nome;
     private int idade;
     private String cpf;
@@ -23,6 +23,8 @@ public class Usuario {
     public Usuario() {
 
     }
+
+    protected abstract void funcao();
 
     public String getNome() {
         return nome;

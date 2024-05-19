@@ -23,8 +23,9 @@ public class Main {
         AlunoService alunoService = new AlunoService(repository);
         AlunoController controler = new AlunoController(alunoService);
 
-        ProfessorService professorService = new ProfessorService();
         ProfessorRepository professorRepository = new ProfessorRepository(database.getConnection());
+        ProfessorService professorService = new ProfessorService(professorRepository);
+
 
 
         Scanner sc = new Scanner(System.in);
@@ -37,10 +38,9 @@ public class Main {
 //
 //        //Para simular a entrada de dados  irei utilizar o Scanner, e para melhorar a simulação vou adicionar os dados em uma lista e mandar uma lista para
 //        // o Controller, afinal não sabemos quais dados iremos receber do front, e para poder usar o DTO.
-        System.out.println(controler.listarTodosAlunos());
         System.out.println("Qual serviço deseja acessar:");
         System.out.println("Digite: 1 para cadastrar um Aluno");
-        System.out.println("Digite: 2 para buscar todos os Alunos");
+        System.out.println("Digite: 2 para cadastrar um Professor");
         int valorServico = sc.nextInt();
         if (valorServico == 1) {
             System.out.println("Digite o nome do Aluno: ");
@@ -61,14 +61,16 @@ public class Main {
         }else if(valorServico == 2){
             System.out.println("Digite o nome do Professor: ");
             String nome = scString.next();
+
             System.out.println("Digite o CPF do Professor: ");
-            String cpf = scString.next();
-            System.out.println("Digite a idade do Professor: ");
-            int idade = sc.nextInt();
+            String cpf = sc.next();
             System.out.println("Digite o RG do Professor: ");
             String rg = scString.next();
+            System.out.println("Digite a idade do Professor: ");
+            int idade = sc.nextInt();
             System.out.println("Digite o nome da Mãe do Professor: ");
             String nomeMae = scString.next();
+
             System.out.println("Digite o nome do Pai do Professor: ");
             String nomePai = sc.next();
             Professor professorEntity = new Professor(nome,idade,cpf,rg,nomeMae,nomePai,null);

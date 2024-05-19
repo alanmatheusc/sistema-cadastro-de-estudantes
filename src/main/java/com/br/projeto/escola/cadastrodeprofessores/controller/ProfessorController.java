@@ -19,7 +19,7 @@ public class ProfessorController {
 
     public void adicionarProfessor(){
         SaveProfessorDto professorDto = new SaveProfessorDto(professorList.getNome(),professorList.getIdade(),professorList.getCpf(),professorList.getRg(),professorList.getNomeDaMae(),professorList.getNomeDoPai());
-
+        professorService.cadastrarProfessor(professorDto);
     }
 
 }
